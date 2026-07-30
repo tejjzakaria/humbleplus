@@ -1,0 +1,353 @@
+{
+  "meta": {
+    "title": "Humble+ | Collagène marin & bien-vieillir",
+    "description": "Humble+, le collagène marin Naticol® premium fabriqué au Maroc et approuvé par l'ONSSA, pensé pour la peau, les articulations et la vitalité."
+  },
+  "header": {
+    "languageLabel": "Français",
+    "cta": "Découvrir",
+    "menu": "Menu"
+  },
+  "nav": {
+    "home": "Accueil",
+    "products": "Nos produits",
+    "story": "Notre histoire",
+    "contact": "Contact",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "eyebrow": "Collagène marin Naticol® · Fabriqué au Maroc · Approuvé ONSSA",
+    "title": "Bien vieillir commence par des rituels simples, chaque jour.",
+    "subtitle": "Humble+ associe un collagène marin premium et une routine quotidienne pensée pour soutenir votre peau, vos articulations et votre vitalité, à chaque âge.",
+    "ctaPrimary": "Découvrir nos produits",
+    "ctaSecondary": "Notre histoire",
+    "trust": {
+      "customers": "+100 000 clientes convaincues",
+      "clinical": "Dosage cliniquement étudié",
+      "madeIn": "Fabriqué au Maroc · Approuvé ONSSA",
+      "ratingValue": "4.8/5",
+      "ratingCount": "12 000+ avis vérifiés"
+    },
+    "imageAlt": "Main saisissant un flacon Humble+ sur un plan de toilette en marbre, avec les trois cures Collagène, Magnésium et Oméga 3"
+  },
+  "benefits": {
+    "eyebrow": "Pourquoi le collagène ?",
+    "title": "Un allié pour chaque partie de votre bien-être",
+    "subtitle": "Trois piliers pensés ensemble, pas une solution miracle isolée.",
+    "items": [
+      {
+        "title": "Peau",
+        "description": "Soutient la fermeté, l'élasticité et l'hydratation de la peau au fil du temps."
+      },
+      {
+        "title": "Corps & articulations",
+        "description": "Accompagne la mobilité, la flexibilité et la récupération après l'effort."
+      },
+      {
+        "title": "Vitalité",
+        "description": "Contribue à votre bien-être général et à une routine active, à chaque âge."
+      }
+    ]
+  },
+  "products": {
+    "eyebrow": "Notre gamme",
+    "title": "Des rituels simples, pensés pour durer",
+    "subtitle": "Un collagène marin à savourer au quotidien, et une routine soin pour la peau.",
+    "viewAll": "Voir tous les produits",
+    "cta": "Découvrir",
+    "oneTime": "Achat unique",
+    "subscribe": "Abonnement -15%"
+  },
+  "productsPage": {
+    "breadcrumbHome": "Accueil",
+    "breadcrumbCurrent": "Produits",
+    "title": "Toute la gamme Humble+",
+    "subtitle": "Trois cures pensées pour une routine bien-être durable : beauté, énergie et cœur.",
+    "filters": {
+      "all": "Tous les produits",
+      "beauty": "Beauté & corps",
+      "energy": "Énergie & nervosité",
+      "heart": "Cœur, cerveau & vision"
+    },
+    "empty": "Aucun produit dans cette catégorie pour le moment.",
+    "resultCount": "{count} produits",
+    "resultCountOne": "{count} produit"
+  },
+  "productDetail": {
+    "descriptionTitle": "Description",
+    "highlightsTitle": "Points clés",
+    "usageTitle": "Comment l'utiliser",
+    "usageSubtitle": "Trois gestes simples pour l'intégrer à votre routine.",
+    "ingredientsTitle": "Ingrédients",
+    "ingredientsSubtitle": "Une composition courte et transparente, par dose.",
+    "reviewsTitle": "Avis sur ce produit",
+    "deliveryNote": "Livraison 24-48h dans les grandes villes. Frais de livraison calculés et confirmés par téléphone.",
+    "whatsappCta": "Commander via WhatsApp",
+    "whatsappMessage": "Bonjour, je souhaite commander {product} sur Humble+.",
+    "orderForm": {
+      "title": "Commander maintenant",
+      "chooseFormat": "Choisissez votre format",
+      "perUnit": "{price} / unité",
+      "total": "Total",
+      "nameLabel": "Nom complet",
+      "namePlaceholder": "Votre nom complet",
+      "phoneLabel": "Téléphone",
+      "phonePlaceholder": "06 12 34 56 78",
+      "addressLabel": "Adresse",
+      "addressPlaceholder": "Numéro, rue, quartier, ville...",
+      "submit": "Commander maintenant",
+      "codNote": "Paiement à la livraison — payez en espèces à la réception",
+      "secureNote": "Vos informations servent uniquement à confirmer votre commande.",
+      "submitting": "Envoi en cours…",
+      "submitError": "Une erreur est survenue. Veuillez réessayer ou nous écrire sur WhatsApp.",
+      "errorRequired": "Ce champ est requis",
+      "errorPhone": "Numéro de téléphone marocain invalide"
+    },
+    "stickyBarCta": "Commander",
+    "faqTitle": "Questions sur ce produit",
+    "faq": [
+      {
+        "question": "Comment utiliser ce produit ?",
+        "answer": "Une dose par jour, mélangée à votre boisson préférée, de préférence à heure régulière pour construire une routine durable."
+      },
+      {
+        "question": "Le paiement à la livraison est-il disponible ?",
+        "answer": "Oui, vous payez en espèces directement au livreur à la réception de votre commande."
+      },
+      {
+        "question": "Quel est le délai de livraison ?",
+        "answer": "Comptez 24 à 48h dans les grandes villes, un peu plus pour les autres régions du Maroc."
+      }
+    ],
+    "relatedTitle": "Complétez votre routine"
+  },
+  "science": {
+    "eyebrow": "La science Naticol®",
+    "title": "Un collagène tracé, dosé et validé cliniquement",
+    "subtitle": "Nous choisissons nos ingrédients avec la même exigence que nos rituels quotidiens.",
+    "points": [
+      {
+        "title": "Origine marine tracée",
+        "description": "Peptides de collagène Naticol® issus de poissons, sourcés et tracés du bateau au pot."
+      },
+      {
+        "title": "Dosage cliniquement étudié",
+        "description": "Une dose quotidienne alignée sur les protocoles utilisés dans des études cliniques publiées."
+      },
+      {
+        "title": "Fabriqué au Maroc, approuvé ONSSA",
+        "description": "Formulation et conditionnement réalisés dans un laboratoire marocain certifié ONSSA, ISO 22000 et cGMP."
+      },
+      {
+        "title": "Sans additifs superflus",
+        "description": "Une liste d'ingrédients courte, sans arômes artificiels ni édulcorants inutiles."
+      }
+    ],
+    "disclaimer": "Les informations ci-dessus reflètent les allégations de la marque Humble+. Elles ne remplacent pas un avis médical et n'ont pas toutes fait l'objet d'une vérification scientifique indépendante.",
+    "imageAlt": "Composition d'ingrédients marins évoquant l'origine du collagène marin Humble+"
+  },
+  "certifications": {
+    "badgeAlt": "Fabriqué par un laboratoire certifié ONSSA, ISO 22000, cGMP et FDA"
+  },
+  "whatsappWidget": {
+    "ariaLabel": "Discuter sur WhatsApp"
+  },
+  "reviewsUi": {
+    "translatedBadge": "Traduit de la darija"
+  },
+  "ritual": {
+    "eyebrow": "Comment ça marche",
+    "title": "Trois gestes simples, chaque jour",
+    "subtitle": "Pas de routine compliquée : juste une habitude qui tient dans la durée.",
+    "steps": [
+      {
+        "title": "Dosez",
+        "description": "Le nombre de gélules recommandé pour votre cure, chaque jour."
+      },
+      {
+        "title": "Avalez",
+        "description": "Avec un grand verre d'eau, au petit-déjeuner ou avant un repas."
+      },
+      {
+        "title": "Restez régulière",
+        "description": "Les bienfaits d'une routine bien-être se construisent jour après jour."
+      }
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Avis clientes",
+    "title": "Elles ont adopté leur rituel Humble+",
+    "subtitle": "Des retours vérifiés de clientes partout au Maroc.",
+    "ratingValue": "4.8/5",
+    "ratingCount": "Basé sur 12 000+ avis vérifiés",
+    "items": [
+      {
+        "name": "Salma",
+        "location": "Casablanca",
+        "rating": 5,
+        "quote": "Après 2 mois, ma peau est clairement plus ferme. Le goût est neutre, je l'ajoute à mon café le matin."
+      },
+      {
+        "name": "Yasmine",
+        "location": "Rabat",
+        "rating": 5,
+        "quote": "Mes douleurs aux genoux après le sport ont nettement diminué. Une vraie routine, pas juste un produit.",
+        "translated": true
+      },
+      {
+        "name": "Nadia",
+        "location": "Marrakech",
+        "rating": 4,
+        "quote": "Livraison rapide et paiement à la livraison, ça change tout pour commander en toute confiance."
+      },
+      {
+        "name": "Imane",
+        "location": "Tanger",
+        "rating": 5,
+        "quote": "La crème complète bien la poudre. Ma peau est plus hydratée dès les premières semaines.",
+        "translated": true
+      }
+    ]
+  },
+  "story": {
+    "eyebrow": "Notre histoire",
+    "title": "Une conviction née de l'effort physique",
+    "paragraphs": [
+      "Humble+ est né en 2019, quand deux passionnés de sport ont découvert les effets du collagène marin sur la récupération et la mobilité après un entraînement intensif.",
+      "Convaincus que ces bienfaits méritaient d'être accessibles à toutes et tous, et pas seulement aux sportifs de haut niveau, ils ont créé une marque exigeante sur la qualité, simple dans son usage quotidien.",
+      "Aujourd'hui, Humble+ accompagne aussi les femmes marocaines dans leur routine bien-être quotidienne, avec la même exigence de qualité et de transparence."
+    ],
+    "stats": [
+      { "value": "2019", "label": "Année de création" },
+      { "value": "2", "label": "Fondateurs passionnés de sport" },
+      { "value": "Maroc", "label": "Fabrication certifiée ONSSA" }
+    ],
+    "imageAlt": "Scène sportive évoquant l'origine de Humble+, née de l'entraînement intensif des fondateurs",
+    "valuesEyebrow": "Nos valeurs",
+    "valuesTitle": "Ce qui guide chaque produit que nous créons",
+    "values": [
+      {
+        "title": "Transparence",
+        "description": "Ingrédients tracés, dosages clairs et allégations qui restent honnêtes sur ce qu'un complément peut vraiment apporter."
+      },
+      {
+        "title": "Qualité certifiée ONSSA",
+        "description": "Formulation et fabrication réalisées dans un laboratoire marocain certifié ONSSA, ISO 22000 et cGMP, avec des standards exigeants."
+      },
+      {
+        "title": "Simplicité quotidienne",
+        "description": "Des routines pensées pour tenir dans la durée : peu de gestes, une vraie régularité, des résultats qui se construisent jour après jour."
+      }
+    ],
+    "ctaTitle": "Découvrez la routine qui vous correspond",
+    "ctaButton": "Voir nos produits"
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "title": "Tout ce qu'il faut savoir avant de commencer",
+    "subtitle": "Vous ne trouvez pas votre réponse ? Contactez-nous, nous répondons rapidement.",
+    "items": [
+      {
+        "question": "Les compléments Humble+ sont-ils halal ?",
+        "answer": "Oui. Notre collagène est d'origine marine (poisson), naturellement sans porc, ce qui en fait un choix adapté à une consommation halal."
+      },
+      {
+        "question": "Comment prendre les gélules Humble+ ?",
+        "answer": "Chaque cure se prend en une ou plusieurs prises quotidiennes avec un grand verre d'eau, idéalement à heure fixe. Le dosage recommandé est indiqué sur chaque boîte."
+      },
+      {
+        "question": "Puis-je prendre plusieurs produits Humble+ en même temps ?",
+        "answer": "Oui, nos trois cures Collagène, Magnésium et Oméga 3 sont pensées pour être complémentaires et peuvent être prises ensemble dans le cadre d'une routine bien-être quotidienne."
+      },
+      {
+        "question": "Livrez-vous partout au Maroc ? Le paiement à la livraison est-il disponible ?",
+        "answer": "Oui, nous livrons dans les principales villes du Maroc, avec paiement à la livraison disponible sur l'ensemble de nos produits."
+      },
+      {
+        "question": "Puis-je annuler mon abonnement à tout moment ?",
+        "answer": "Oui, votre abonnement est sans engagement : vous pouvez le modifier ou l'annuler à tout moment depuis votre espace client."
+      },
+      {
+        "question": "Dois-je consulter un médecin avant de commencer ?",
+        "answer": "Nos compléments sont conçus pour un usage quotidien, mais nous recommandons de demander l'avis d'un professionnel de santé en cas de grossesse, d'allaitement, de traitement en cours ou de condition particulière."
+      }
+    ],
+    "ctaTitle": "Vous ne trouvez pas votre réponse ?",
+    "ctaButton": "Contactez-nous"
+  },
+  "contact": {
+    "breadcrumbCurrent": "Contact",
+    "eyebrow": "Contact",
+    "title": "Une question ? Nous sommes là.",
+    "subtitle": "Notre équipe répond du lundi au samedi, en français ou en arabe.",
+    "whatsappTitle": "WhatsApp",
+    "whatsappDescription": "Le moyen le plus rapide de nous joindre pour une question sur un produit ou une commande.",
+    "whatsappCta": "Discuter sur WhatsApp",
+    "emailTitle": "E-mail",
+    "emailDescription": "Pour toute question détaillée, écrivez-nous, nous répondons sous 24h.",
+    "emailValue": "contact@humbleplus.ma",
+    "formTitle": "Envoyer un message",
+    "formNameLabel": "Nom complet",
+    "formNamePlaceholder": "Votre nom complet",
+    "formEmailLabel": "E-mail",
+    "formEmailPlaceholder": "vous@exemple.com",
+    "formMessageLabel": "Message",
+    "formMessagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "formSubmit": "Envoyer",
+    "formSuccessTitle": "Merci {name} !",
+    "formSuccessBody": "Votre message est bien reçu. Notre équipe vous répondra très prochainement.",
+    "errorRequired": "Ce champ est requis",
+    "errorEmail": "Adresse e-mail invalide",
+    "faqTeaser": "Consultez notre FAQ pour une réponse immédiate.",
+    "faqTeaserLink": "Voir la FAQ"
+  },
+  "thankYou": {
+    "title": "Merci {name} !",
+    "titleFallback": "Merci pour votre commande !",
+    "subtitle": "Votre commande {product} est bien enregistrée. Notre équipe vous appellera très prochainement au {phone} pour confirmer la livraison.",
+    "subtitleFallback": "Votre commande est bien enregistrée. Notre équipe vous appellera très prochainement pour confirmer la livraison.",
+    "codReminder": "Paiement à la livraison — préparez le montant exact en espèces.",
+    "whatsappTitle": "Une question sur votre commande ?",
+    "whatsappCta": "Écrivez-nous sur WhatsApp",
+    "continueShopping": "Continuer mes achats",
+    "backHome": "Retour à l'accueil"
+  },
+  "footer": {
+    "newsletterTitle": "Rejoignez la communauté Humble+",
+    "newsletterSubtitle": "Conseils bien-être, nouveautés et offres exclusives, directement dans votre boîte mail.",
+    "newsletterPlaceholder": "Votre adresse e-mail",
+    "newsletterCta": "S'inscrire",
+    "newsletterSuccess": "Merci ! Vous êtes bien inscrite.",
+    "brandBlurb": "Collagène marin premium et rituels quotidiens pour bien vieillir, pensés pour le Maroc.",
+    "paymentNote": "Paiement à la livraison disponible",
+    "columns": {
+      "shop": {
+        "title": "Boutique",
+        "links": [
+          { "label": "Nos produits", "href": "/produits" },
+          { "label": "Collagène Marin", "href": "/produits?categorie=beauty" },
+          { "label": "Magnésium Bisglycinate", "href": "/produits?categorie=energy" },
+          { "label": "Oméga 3 AGE-WELL®", "href": "/produits?categorie=heart" }
+        ]
+      },
+      "company": {
+        "title": "À propos",
+        "links": [
+          { "label": "Notre histoire", "href": "/histoire" },
+          { "label": "La science Naticol®", "href": "#science" },
+          { "label": "Avis clientes", "href": "#avis" }
+        ]
+      },
+      "support": {
+        "title": "Assistance",
+        "links": [
+          { "label": "Questions fréquentes", "href": "/faq" },
+          { "label": "Contact", "href": "/contact" },
+          { "label": "Livraison & paiement", "href": "/faq" },
+          { "label": "Politique de retour", "href": "/faq" }
+        ]
+      }
+    },
+    "rights": "Tous droits réservés."
+  }
+}
