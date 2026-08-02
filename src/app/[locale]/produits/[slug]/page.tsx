@@ -105,6 +105,7 @@ export default async function ProductDetailPage({
                 <ProductGallery
                   images={product.images}
                   alt={product.imageAlt[locale]}
+                  zoomHint={copy.zoomHint}
                 />
               </StaggerItem>
 

@@ -3,6 +3,13 @@
     "title": "Humble+ | Collagène marin & bien-vieillir",
     "description": "Humble+, le collagène marin Naticol® premium fabriqué au Maroc et approuvé par l'ONSSA, pensé pour la peau, les articulations et la vitalité."
   },
+  "notFound": {
+    "eyebrow": "Erreur 404",
+    "title": "Cette page s'est égarée",
+    "subtitle": "Le lien que vous avez suivi ne mène nulle part, ou la page a été déplacée. Retournez à l'accueil ou découvrez nos produits.",
+    "homeCta": "Retour à l'accueil",
+    "productsCta": "Voir les produits"
+  },
   "header": {
     "languageLabel": "Français",
     "cta": "Découvrir",
@@ -81,6 +88,7 @@
     "ingredientsTitle": "Ingrédients",
     "ingredientsSubtitle": "Une composition courte et transparente, par dose.",
     "reviewsTitle": "Avis sur ce produit",
+    "zoomHint": "Agrandir l'image",
     "deliveryNote": "Livraison 24-48h dans les grandes villes. Frais de livraison calculés et confirmés par téléphone.",
     "whatsappCta": "Commander via WhatsApp",
     "whatsappMessage": "Bonjour, je souhaite commander {product} sur Humble+.",
