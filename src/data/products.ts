@@ -190,8 +190,8 @@ export const products: Product[] = [
         },
       },
     ],
-    price: 379,
-    compareAtPrice: 449,
+    price: 219,
+    compareAtPrice: 249,
   },
   {
     id: "magnesium-bisglycinate",
@@ -468,7 +468,7 @@ export const products: Product[] = [
         },
       },
     ],
-    price: 229,
+    price: 249,
     compareAtPrice: 279,
   },
 ];
