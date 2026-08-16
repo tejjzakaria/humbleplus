@@ -1,6 +1,7 @@
 import { headers } from "next/headers";
 import { Lora, Raleway, Markazi_Text, Tajawal, Geist_Mono } from "next/font/google";
 import { Direction } from "radix-ui";
+import { Analytics } from "@vercel/analytics/next";
 import { isLocale, defaultLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { NotFoundContent } from "@/components/not-found-content";
@@ -62,6 +63,7 @@ export default async function GlobalNotFound() {
         <Direction.Provider dir={dir}>
           <NotFoundContent dict={dict} locale={locale} />
         </Direction.Provider>
+        <Analytics />
       </body>
     </html>
   );

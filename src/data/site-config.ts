@@ -4,7 +4,7 @@
  * (E.164 digits only) for wa.me links to work, e.g. "212600000000".
  */
 export const siteConfig = {
-  whatsappNumber: "212600000000",
+  whatsappNumber: "212700084064",
 };
 
 export function buildWhatsappLink(message?: string) {

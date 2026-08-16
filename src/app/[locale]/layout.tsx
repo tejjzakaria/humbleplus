@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lora, Raleway, Markazi_Text, Tajawal, Geist_Mono } from "next/font/google";
 import { Direction } from "radix-ui";
+import { Analytics } from "@vercel/analytics/next";
 import { notFound } from "next/navigation";
 import { locales, isLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
@@ -81,6 +82,7 @@ export default async function LocaleLayout({
     >
       <body className="flex min-h-full flex-col bg-background text-foreground">
         <MetaPixel />
+        <Analytics />
         <Direction.Provider dir={dir}>
           {children}
           <FloatingWidgets
