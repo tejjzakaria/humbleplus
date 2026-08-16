@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { locales, isLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { FloatingWidgets } from "@/components/floating-widgets";
+import { MetaPixel } from "@/components/meta-pixel";
 import "../globals.css";
 
 const lora = Lora({
@@ -79,6 +80,7 @@ export default async function LocaleLayout({
       className={`${lora.variable} ${raleway.variable} ${markaziText.variable} ${tajawal.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-background text-foreground">
+        <MetaPixel />
         <Direction.Provider dir={dir}>
           {children}
           <FloatingWidgets

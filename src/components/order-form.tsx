@@ -9,6 +9,7 @@ import { formatPrice } from "@/data/products";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/get-dictionary";
 import { cn } from "@/lib/utils";
+import { trackMetaEvent } from "@/lib/meta-pixel";
 
 function isValidMoroccanPhone(value: string) {
   const digits = value.replace(/[\s.-]/g, "");
@@ -60,6 +61,13 @@ export function OrderForm({
     if (Object.keys(nextErrors).length > 0) return;
 
     setStatus("submitting");
+    trackMetaEvent("InitiateCheckout", {
+      content_ids: [productSlug],
+      content_name: productName,
+      content_type: "product",
+      currency: "MAD",
+      value: total,
+    });
     try {
       const response = await fetch("/api/order", {
         method: "POST",
@@ -81,7 +89,13 @@ export function OrderForm({
       const data = await response.json();
       if (data?.success === false) throw new Error(data?.error ?? "Request failed");
 
-      const query = new URLSearchParams({ name, product: productName, phone });
+      const query = new URLSearchParams({
+        name,
+        product: productName,
+        phone,
+        slug: productSlug,
+        value: String(total),
+      });
       router.push(`/${locale}/merci?${query.toString()}`);
     } catch {
       setStatus("error");

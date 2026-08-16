@@ -8,6 +8,7 @@ import { buildWhatsappLink } from "@/data/site-config";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { Button } from "@/components/ui/button";
+import { PurchasePixel } from "@/components/purchase-pixel";
 
 export async function generateMetadata({
   params,
@@ -28,7 +29,13 @@ export default async function ThankYouPage({
   searchParams,
 }: {
   params: Promise<{ locale: string }>;
-  searchParams: Promise<{ name?: string; product?: string; phone?: string }>;
+  searchParams: Promise<{
+    name?: string;
+    product?: string;
+    phone?: string;
+    slug?: string;
+    value?: string;
+  }>;
 }) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
@@ -36,7 +43,8 @@ export default async function ThankYouPage({
   const dict = await getDictionary(locale);
   const base = `/${locale}`;
   const { thankYou } = dict;
-  const { name, product, phone } = await searchParams;
+  const { name, product, phone, slug, value } = await searchParams;
+  const purchaseValue = value ? Number(value) : NaN;
 
   const title = name ? thankYou.title.replace("{name}", name) : thankYou.titleFallback;
   const subtitle =
@@ -51,6 +59,9 @@ export default async function ThankYouPage({
 
   return (
     <>
+      {slug && product && !Number.isNaN(purchaseValue) && (
+        <PurchasePixel contentId={slug} contentName={product} value={purchaseValue} />
+      )}
       <SiteHeader dict={dict} locale={locale} />
       <main className="flex-1">
         <div className="mx-auto max-w-xl px-4 py-16 text-center sm:px-6 sm:py-24 lg:px-8">

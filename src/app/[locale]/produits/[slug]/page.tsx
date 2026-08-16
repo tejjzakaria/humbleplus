@@ -16,6 +16,7 @@ import { UsageSteps } from "@/components/usage-steps";
 import { IngredientsTable } from "@/components/ingredients-table";
 import { ProductReviews } from "@/components/product-reviews";
 import { StickyOrderBar } from "@/components/sticky-order-bar";
+import { ViewContentPixel } from "@/components/view-content-pixel";
 import { Badge } from "@/components/ui/badge";
 import {
   Accordion,
@@ -68,6 +69,11 @@ export default async function ProductDetailPage({
 
   return (
     <>
+      <ViewContentPixel
+        contentId={product.slug}
+        contentName={product.name[locale]}
+        value={product.price}
+      />
       <SiteHeader dict={dict} locale={locale} />
       <main className="flex-1">
         {/* Hero zone */}
